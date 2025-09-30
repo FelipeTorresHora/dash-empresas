@@ -1,8 +1,8 @@
 import streamlit as st
-import psycopg2
 import pandas as pd
 from sqlalchemy import create_engine
 import time
+import psycopg2
 
 # Define o título da página e um ícone
 st.set_page_config(
